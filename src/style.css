@@ -128,7 +128,7 @@ main {
 
 .hero-right p {
   font-size: 1.1rem;
-  color: #666;
+  color: #000;
   line-height: 1.8;
 }
 
@@ -153,8 +153,10 @@ main {
   color: white;
 }
 
-.btn-primary:hover {
-  background-color: #555;
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #836EAA;
+  color: white;
 }
 
 .btn-secondary {
