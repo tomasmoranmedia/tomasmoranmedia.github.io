@@ -285,6 +285,9 @@ main {
 
 .work-item > .video-wrapper {
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .video-wrapper {
@@ -293,6 +296,8 @@ main {
   height: 0;
   overflow: hidden;
   border-radius: 4px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .video-wrapper iframe {

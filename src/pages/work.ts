@@ -16,7 +16,7 @@ export function createWorkPage(): string {
           <div class="work-grid">
             <div class="work-item">
               <a href="https://youtube.com/playlist?list=PLgEoIkUdTg4Nq_3iWBsVDVPMxXJ7EbCYv" target="_blank" rel="noopener noreferrer">
-                <img src="/home/obscureballerslogo.png" alt="Obscure Ballers Playlist" class="work-image">
+                <img src="/radio/obscure_ballers.jpeg" alt="Obscure Ballers Playlist" class="work-image">
               </a>
               <div class="work-info">
                 <a href="https://youtube.com/playlist?list=PLgEoIkUdTg4Nq_3iWBsVDVPMxXJ7EbCYv" target="_blank" rel="noopener noreferrer" class="work-link">Obscure Ballers Playlist 9/7/25 - 12/7/25</a>
@@ -100,11 +100,6 @@ export function createWorkPage(): string {
               <div class="work-info">
                 <a href="https://www.instagram.com/reel/DO1mdHqEmmY" target="_blank" rel="noopener noreferrer" class="work-link">Men's Soccer: Northwestern vs Rutgers Broadcast Clip (Spanish)</a>
                 <span class="work-date">9/19/25</span>
-              </div>
-            </div>
-            <div class="work-item">
-              <div class="work-info">
-                <span class="work-link">Radio Broadcast Reel (Pending)</span>
               </div>
             </div>
           </div>
