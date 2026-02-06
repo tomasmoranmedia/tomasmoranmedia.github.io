@@ -1,5 +1,5 @@
 :root {
-  --secondary-color: #003B5C;
+  --secondary-color: #4E2A84;
 }
 
 * {
@@ -76,8 +76,8 @@ main {
 }
 
 .portrait {
-  width: 300px;
-  height: 400px;
+  width: min(500px, 40vw);
+  height: min(500px, 40vw);
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -112,10 +112,18 @@ main {
 
 .hero-right .subtitle {
   font-size: 1.5rem;
-  color: #555;
+  color: #000;
   margin: 0;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.hero-right .subsubtitle {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+  font-weight: 500;
+  line-height: 0.8;
 }
 
 .hero-right p {
@@ -212,11 +220,171 @@ main {
   font-size: 2rem;
   color: var(--secondary-color);
   margin-bottom: 2rem;
+  text-align: center;
 }
 
-.work-container p {
+.work-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e0e0e0;
+  flex-wrap: wrap;
+}
+
+.work-nav a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+  padding: 0.5rem 1rem;
+}
+
+.work-nav a:hover {
+  opacity: 0.7;
+}
+
+.work-section {
+  margin-bottom: 4rem;
+  scroll-margin-top: 100px;
+}
+
+.work-section h2 {
+  font-size: 1.75rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.work-section p {
   color: #666;
   font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.work-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  height: 100%;
+}
+
+.work-item > a:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.work-item > .video-wrapper {
+  flex: 1;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-wrapper.instagram {
+  position: relative;
+  padding-bottom: 0;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  line-height: 0;
+}
+
+.video-wrapper.instagram iframe {
+  position: static;
+  width: 380px;
+  height: 675px;
+  max-width: 100%;
+  display: block;
+}
+
+.video-wrapper.centered-video {
+  padding-top: 15rem;
+}
+
+@media (max-width: 768px) {
+  .video-wrapper.centered-video {
+    padding-top: 0;
+  }
+  
+  .work-item {
+    gap: 0.5rem;
+    height: auto;
+  }
+  
+  .work-item > a:first-child,
+  .work-item > .video-wrapper {
+    flex: 0 0 auto;
+  }
+}
+
+.x-embed-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.x-embed-wrapper .twitter-tweet {
+  margin: 0 auto !important;
+}
+
+.work-link {
+  text-align: center;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.work-link:hover {
+  opacity: 0.7;
+}
+
+.work-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+.work-date {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.work-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  transition: opacity 0.2s;
+}
+
+.work-item a:hover .work-image {
+  opacity: 0.9;
 }
 
 .about-container {
@@ -275,6 +443,45 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+
+.footer-contact {
+  text-align: center;
+}
+
+.footer-contact h3 {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.contact-link:hover {
+  opacity: 0.7;
+}
+
+.contact-link svg {
+  flex-shrink: 0;
+}
+
+.contact-link span {
+  color: white;
 }
 
 .social-links {
@@ -369,8 +576,8 @@ button:focus-visible {
   }
 
   .portrait {
-    width: 250px;
-    height: 333px;
+    width: 300px;
+    height: 300px;
   }
 
   .hero-right h1 {
@@ -400,5 +607,9 @@ button:focus-visible {
 
   .about-image {
     max-width: 100%;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
   }
 }
