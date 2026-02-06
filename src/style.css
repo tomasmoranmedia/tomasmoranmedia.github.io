@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'SF Pro Display', 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-family: 'Bree Serif', serif;
   line-height: 1.6;
 }
 
@@ -294,7 +294,7 @@ main {
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 100%; /* 1:1 square aspect ratio */
   height: 0;
   overflow: hidden;
   border-radius: 4px;
@@ -313,19 +313,35 @@ main {
 
 .video-wrapper.instagram {
   position: relative;
-  padding-bottom: 0;
-  height: auto;
-  display: flex;
-  justify-content: center;
+  padding-bottom: 100%;
+  height: 0;
+  display: block;
   line-height: 0;
 }
 
 .video-wrapper.instagram iframe {
-  position: static;
-  width: 380px;
-  height: 675px;
-  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: block;
+}
+
+.video-wrapper.landscape-embed,
+.video-wrapper.instagram.landscape-embed {
+  padding-bottom: 100%;
+  height: 0;
+  display: block;
+}
+
+.work-item .centered-media {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.work-item.centered-item {
+  align-self: stretch;
 }
 
 .video-wrapper.centered-video {
@@ -383,11 +399,261 @@ main {
   color: #888;
 }
 
+.work-featured-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.work-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+}
+
+.work-card-image {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.work-card-body {
+  padding: 1rem 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.work-card-cta {
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.television-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.television-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.television-hero-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+}
+
+.television-hero-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.television-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.television-hero-copy h1 {
+  font-size: 2.25rem;
+  color: var(--secondary-color);
+  line-height: 1.2;
+}
+
+.television-lead {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.7;
+}
+
+.television-note {
+  color: #222;
+}
+
+.television-section {
+  margin-bottom: 3rem;
+}
+
+.television-section-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.television-section h2 {
+  font-size: 1.75rem;
+  color: var(--secondary-color);
+}
+
+.television-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+
+.standup-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.standup-grid .television-card-image {
+  aspect-ratio: 1 / 1;
+  height: auto;
+}
+
+.standup-grid .television-card-video {
+  aspect-ratio: 1 / 1;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.television-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.television-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.television-card.subdued {
+  pointer-events: none;
+}
+
+.television-card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.television-card-video {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: cover;
+  border: none;
+  display: block;
+  background: #000;
+}
+
+.television-card-body {
+  padding: 1rem 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+}
+
+.television-card h3 {
+  font-size: 1.05rem;
+  color: #222;
+}
+
+.television-date {
+  font-size: 0.95rem;
+  color: #777;
+}
+
+.television-list {
+  margin-top: 1.5rem;
+}
+
+.television-list h3 {
+  color: #222;
+  margin-bottom: 0.75rem;
+}
+
+.television-list ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.television-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #eaeaea;
+  padding: 0.75rem 0;
+}
+
+.television-list a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+  flex: 1;
+}
+
+.television-list a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .television-hero {
+    grid-template-columns: 1fr;
+  }
+  .television-card-image {
+    height: 200px;
+  }
+  .television-card-video {
+    height: auto;
+  }
+  .work-card-image {
+    height: 200px;
+  }
+  .television-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .standup-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .work-image {
   width: 100%;
   height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover; /* crops without distortion */
   border-radius: 4px;
   transition: opacity 0.2s;
+  display: block;
 }
 
 .work-item a:hover .work-image {
