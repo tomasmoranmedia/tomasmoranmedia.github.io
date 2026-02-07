@@ -47,7 +47,7 @@ function DocumentaryPage() {
         imageAlt="Holding a camera while filming in Lima"
       />
 
-      <WorkSection title="Pictures">
+      <WorkSection>
         <MediaGrid
           items={[
             {
@@ -82,7 +82,7 @@ function DocumentaryPage() {
         />
       </WorkSection>
 
-      <WorkSection title="Coverage">
+      <WorkSection title="Coverage in Peru">
         <WorkList items={coverage} />
       </WorkSection>
     </main>

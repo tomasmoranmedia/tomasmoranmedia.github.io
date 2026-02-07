@@ -33,7 +33,7 @@ function ResumePage() {
             <iframe src="/resume.pdf" className="resume-iframe" title="Resume PDF" />
           ) : (
             <div className="resume-fallback">
-              <p>Upload resume to public/resume.pdf</p>
+
             </div>
           )}
         </div>

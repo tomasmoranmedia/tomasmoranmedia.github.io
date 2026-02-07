@@ -14,14 +14,14 @@ function RadioPage() {
       href: "https://youtube.com/playlist?list=PLgEoIkUdTg4Nq_3iWBsVDVPMxXJ7EbCYv",
       imageSrc: "/radio/obscure_ballers_logo.webp",
       imageAlt: "Obscure Ballers logo",
-      title: "Obscure Ballers Playlist",
+      title: "Obscure Ballers Episodes Playlist",
       date: "9/7/25 - 12/7/25"
     },
     {
       href: "https://www.youtube.com/live/H_-RM7-dQW0",
       imageSrc: "/radio/obscure_ballers_setup.webp",
       imageAlt: "Obscure Ballers live show setup",
-      title: "Obscure Ballers; Stolen Base Episode",
+      title: "Obscure Ballers: Stolen Base Episode",
       date: "9/28/25"
     },
     {
@@ -29,7 +29,7 @@ function RadioPage() {
       imageSrc: "/radio/obscure_ballers_logo.webp",
       imageAlt: "Obscure Ballers logo",
       title: "Obscure Ballers Instagram",
-      date: "9/28/25"
+      date: "TBD"
     }
   ]
 
@@ -66,18 +66,14 @@ function RadioPage() {
         imageAlt="Calling a Northwestern soccer match"
       />
 
-      <WorkSection title="Pictures">
-        <MediaGrid
-          items={[
-            { src: '/radio/ihsa_state_finals.webp', alt: 'Radio: IHSA State Finals', subdued: true },
-            { src: '/radio/indiana.webp', alt: 'Radio: Indiana', subdued: true },
-            { src: '/radio/philadelphia.webp', alt: 'Radio: Philadelphia', subdued: true },
-            { src: '/radio/student_intern_award.webp', alt: 'Radio: Student Intern Award', subdued: true },
-            { src: '/radio/united_center_court.webp', alt: 'Radio: United Center court', subdued: true },
-            { src: '/radio/wbb_broadcast.webp', alt: 'Radio: WBB broadcast', subdued: true },
-          ]}
-        />
-      </WorkSection>
+      <MediaGrid
+        items={[
+          { src: '/radio/wbb_broadcast.webp', alt: 'Radio: WBB broadcast', subdued: true },
+          { src: '/radio/united_center_court.webp', alt: 'Radio: United Center court', subdued: true },
+          { src: '/radio/ihsa_state_finals.webp', alt: 'Radio: IHSA State Finals', subdued: true },
+          { src: '/radio/indiana.webp', alt: 'Radio: Indiana', subdued: true },
+        ]}
+      />
 
       <WorkSection 
         title="Obscure Ballers"

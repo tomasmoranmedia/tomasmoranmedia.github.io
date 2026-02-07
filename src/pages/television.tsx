@@ -46,8 +46,7 @@ function TelevisionPage() {
       date: "10/11/24"
     }
   ]
-
-  const highlights = [
+const Standups = [
     {
       title: "Men's Basketball: Northwestern vs Penn State Postgame Standup",
       href: "https://x.com/NNNSports/status/2017092728224452837?s=20",
@@ -115,7 +114,7 @@ function TelevisionPage() {
         imageAlt="Television standup at Wrigley Field"
       />
 
-      <WorkSection title="In Studio">
+      <WorkSection title="In-Studio">
         <div className="television-grid">
           {studioItems.map((item, index) => (
             <WorkCard
@@ -131,7 +130,7 @@ function TelevisionPage() {
         </div>
       </WorkSection>
 
-      <WorkSection title="Standup Packages">
+      <WorkSection title="Standups">
         <MediaGrid
           items={[
             {
@@ -147,27 +146,14 @@ function TelevisionPage() {
               src: '/television/football_sidelines.webp',
               alt: 'Football sidelines standup',
               subdued: true,
-            },
-            {
-              title: 'WBB sidelines',
-              subtitle: 'Courtside reporting',
-              src: '/television/wbb_sidelines.webp',
-              alt: 'Women\'s basketball sidelines',
-              subdued: true,
-            },
-            {
-              title: 'Welsh-Ryan Arena 1',
-              subtitle: 'Men\'s basketball coverage',
-              src: '/television/welsh-ryan_arena_1.webp',
-              alt: 'Welsh-Ryan Arena standup',
-              subdued: true,
+            
             },
           ]}
         />
       </WorkSection>
 
-      <WorkSection title="Highlights">
-        <WorkList items={highlights} />
+      <WorkSection title="">
+        <WorkList items={Standups} />
       </WorkSection>
     </main>
   )
