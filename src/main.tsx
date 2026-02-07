@@ -4,7 +4,6 @@ import './style.css'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import HomePage from './pages/home'
-import AboutPage from './pages/about'
 import WorkPage from './pages/work'
 import ResumePage from './pages/resume'
 import TelevisionPage from './pages/television'
@@ -19,7 +18,6 @@ function AppLayout() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
         <Route path="/resume" element={<ResumePage />} />
         <Route path="/work" element={<WorkPage />} />
         <Route path="/work/television" element={<TelevisionPage />} />

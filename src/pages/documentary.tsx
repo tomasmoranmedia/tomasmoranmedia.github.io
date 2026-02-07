@@ -1,23 +1,53 @@
 import MediaGrid from '../components/mediaGrid'
+import WorkPageHero from '../components/workPageHero'
+import WorkSection from '../components/workSection'
+import WorkList from '../components/workList'
 
 function DocumentaryPage() {
+  const coverage = [
+    {
+      title: "\"Noticiero Northwestern\" Keenan Fitzmorris in Peru Package (Spanish)",
+      href: "https://drive.google.com/file/d/1C73yh56cpyNcX1QjrYyW7RgKnwFFi9SE/view?usp=sharing",
+      date: "2/3/26"
+    },
+    {
+      title: "La Liga de Basket de Lima Finals Game 2 Pregame Standup",
+      href: "https://www.instagram.com/reel/DSOU9GkDE2p",
+      date: "12/13/25"
+    },
+    {
+      title: "Interview with Chiki Villalobos (Spanish)",
+      href: "https://www.instagram.com/reel/DSLr_2GErFi",
+      date: "12/12/25"
+    },
+    {
+      title: "La Liga de Basket de Lima Finals Game 1 Preview (English)",
+      href: "https://www.instagram.com/reel/DSDl-T0kfC2",
+      date: "12/9/25"
+    },
+    {
+      title: "La Liga de Basket de Lima Finals Game 1 Preview (Spanish)",
+      href: "https://www.instagram.com/reel/DSDhqv-EpGj",
+      date: "12/9/25"
+    },
+    {
+      title: "La Liga de Basket de Lima Semifinals Pregame Standup (Spanish)",
+      href: "https://www.instagram.com/reel/DR8VYjkDN-D",
+      date: "12/6/25"
+    }
+  ]
+
   return (
     <main className="television-page documentary-page">
-      <div className="television-hero">
-        <div className="television-hero-media">
-          <img src="/documentary/camera.webp" alt="Holding a camera while filming in Lima" />
-        </div>
-        <div className="television-hero-copy">
-          <p className="television-kicker">My Work · Documentary</p>
-          <h1>Documentary</h1>
-          <p className="television-lead">How does basketball survive in the only country that lacks a national team due to governmental instability? I’m currently producing a bilingual basketball documentary about the state of Peruvian basketball and former Northwestern player Keenan Fitzmorris' experience playing in Lima. Having wrapped filming in December, it’s set to be published by WNUR Sports this spring!</p>
-        </div>
-      </div>
+      <WorkPageHero
+        category="Documentary"
+        title="Documentary"
+        description="How does basketball survive in the only country that lacks a national team due to governmental instability? I'm currently producing a bilingual basketball documentary about the state of Peruvian basketball and former Northwestern player Keenan Fitzmorris' experience playing in Lima. Having wrapped filming in December, it's set to be published by WNUR Sports this spring!"
+        imageSrc="/documentary/camera.webp"
+        imageAlt="Holding a camera while filming in Lima"
+      />
 
-      <section className="television-section">
-        <div className="television-section-head">
-          <h2>Pictures</h2>
-        </div>
+      <WorkSection title="Pictures">
         <MediaGrid
           items={[
             {
@@ -50,23 +80,11 @@ function DocumentaryPage() {
             },
           ]}
         />
-      </section>
+      </WorkSection>
 
-      <section className="television-section">
-        <div className="television-section-head">
-          <h2>Coverage</h2>
-        </div>
-        <div className="television-list">
-          <ul>
-            <li><a href="https://drive.google.com/file/d/1C73yh56cpyNcX1QjrYyW7RgKnwFFi9SE/view?usp=sharing" target="_blank" rel="noopener noreferrer">“Noticiero Northwestern” Keenan Fitzmorris in Peru Package (Spanish)</a> <span className="television-date">2/3/26</span></li>
-            <li><a href="https://www.instagram.com/reel/DSOU9GkDE2p" target="_blank" rel="noopener noreferrer">La Liga de Basket de Lima Finals Game 2 Pregame Standup</a> <span className="television-date">12/13/25</span></li>
-            <li><a href="https://www.instagram.com/reel/DSLr_2GErFi" target="_blank" rel="noopener noreferrer">Interview with Chiki Villalobos (Spanish)</a> <span className="television-date">12/12/25</span></li>
-            <li><a href="https://www.instagram.com/reel/DSDl-T0kfC2" target="_blank" rel="noopener noreferrer">La Liga de Basket de Lima Finals Game 1 Preview (English)</a> <span className="television-date">12/9/25</span></li>
-            <li><a href="https://www.instagram.com/reel/DSDhqv-EpGj" target="_blank" rel="noopener noreferrer">La Liga de Basket de Lima Finals Game 1 Preview (Spanish)</a> <span className="television-date">12/9/25</span></li>
-            <li><a href="https://www.instagram.com/reel/DR8VYjkDN-D" target="_blank" rel="noopener noreferrer">La Liga de Basket de Lima Semifinals Pregame Standup (Spanish)</a> <span className="television-date">12/6/25</span></li>
-          </ul>
-        </div>
-      </section>
+      <WorkSection title="Coverage">
+        <WorkList items={coverage} />
+      </WorkSection>
     </main>
   )
 }

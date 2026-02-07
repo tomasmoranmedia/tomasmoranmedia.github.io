@@ -1,67 +1,137 @@
 import MediaGrid from '../components/mediaGrid'
+import WorkPageHero from '../components/workPageHero'
+import WorkSection from '../components/workSection'
+import WorkCard from '../components/workCard'
+import WorkList from '../components/workList'
 
 function TelevisionPage() {
+  const handleCardClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const studioItems = [
+    {
+      href: "https://drive.google.com/file/d/1-OioAaqjvQN9YNYeUVnN3Mvkf5GDo4Vd/view?usp=sharing",
+      imageSrc: "/television/noticiero_northwestern.webp",
+      imageAlt: "Noticiero Northwestern set",
+      title: "\"Noticiero Northwestern\" Bad Bunny Super Bowl Explainer (Spanish)",
+      date: "2/3/26"
+    },
+    {
+      href: "https://drive.google.com/file/d/1jejO3DuJPaXHHr3LPD8zmbIsyFxK-rtS/view?usp=sharing",
+      imageSrc: "/television/politicat_on-desk.webp",
+      imageAlt: "Politicat on-desk",
+      title: "\"Politicat\" One Year of Trump Explainer",
+      date: "1/20/26"
+    },
+    {
+      href: "https://youtu.be/uJTdrvqxRCE",
+      imageSrc: "/television/sportsnight_on-desk.webp",
+      imageAlt: "SportsNight anchoring",
+      title: "\"SportsNight\" Anchoring",
+      date: "11/13/25"
+    },
+    {
+      href: "https://www.instagram.com/reel/DO95Us8DKlj",
+      imageSrc: "/television/espn_ahora_o_nunca.webp",
+      imageAlt: "Appearance on ESPN Ahora o Nunca",
+      title: "Appearance on ESPN's \"Ahora o Nunca\" (Spanish)",
+      date: "7/10/25"
+    },
+    {
+      href: "https://youtu.be/323xQc-qSJU",
+      imageSrc: "/television/wildcat_gameday_preview_on-desk.webp",
+      imageAlt: "Wildcat Gameday Preview desk",
+      title: "\"Wildcat Gameday Preview\" Anchoring",
+      date: "10/11/24"
+    }
+  ]
+
+  const highlights = [
+    {
+      title: "Men's Basketball: Northwestern vs Penn State Postgame Standup",
+      href: "https://x.com/NNNSports/status/2017092728224452837?s=20",
+      date: "1/29/26"
+    },
+    {
+      title: "Men's Basketball: Northwestern vs #13 Illinois Pregame Standup",
+      href: "https://x.com/NNNSports/status/2011620412665541087",
+      date: "1/14/26"
+    },
+    {
+      title: "Men's Basketball: Northwestern vs Minnesota Pregame Standup",
+      href: "https://x.com/NNNSports/status/2007568993284956531",
+      date: "1/3/26"
+    },
+    {
+      title: "Women's Basketball vs Kansas Postgame Standup",
+      href: "https://x.com/NNNSports/status/1996413955775123614",
+      date: "12/3/25"
+    },
+    {
+      title: "Football: Northwestern vs ULM Pregame Standup",
+      href: "https://x.com/NNNSports/status/1974560702053675038",
+      date: "10/4/25"
+    },
+    {
+      title: "Football: Northwestern vs Western Illinois Pregame Standup",
+      href: "https://x.com/NNNSports/status/1964111420045287425",
+      date: "9/5/25"
+    },
+    {
+      title: "Baseball at Wrigley Field: Northwestern vs Ohio State Pregame Standup",
+      href: "https://x.com/NNNSports/status/1920983647101837351",
+      date: "5/9/25"
+    },
+    {
+      title: "Women's Basketball: Northwestern vs Penn State Halftime Standup",
+      href: "https://x.com/NNNSports/status/1888683929387102461",
+      date: "2/9/25"
+    },
+    {
+      title: "Men's Basketball: Northwestern vs Maryland Postgame Standup",
+      href: "https://x.com/NNNSports/status/1880385871381402044",
+      date: "1/16/25"
+    },
+    {
+      title: "Women's Basketball: Northwestern vs Harvard Halftime Standup",
+      href: "https://x.com/NNNSports/status/1860402788083114320",
+      date: "11/23/24"
+    },
+    {
+      title: "Men's Basketball: Northwestern vs Eastern Illinois Pregame Standup",
+      href: "https://x.com/NNNSports/status/1857587132593844234",
+      date: "11/15/24"
+    }
+  ]
+
   return (
     <main className="television-page">
-      <div className="television-hero">
-        <div className="television-hero-media">
-          <img src="/television/wrigley_standup.webp" alt="Television standup at Wrigley Field" />
-        </div>
-        <div className="television-hero-copy">
-          <p className="television-kicker">My Work · Television</p>
-          <h1>Stories in studio and on the sidelines</h1>
-          <p className="television-lead">I’m a reporter, editor and anchor for Northwestern News Network (NNN) Sports and News! Here are clips of my work in front of and behind the camera.</p>
-        </div>
-      </div>
+      <WorkPageHero
+        category="Television"
+        title="Television"
+        description="I'm a reporter, editor and anchor for Northwestern News Network (NNN) Sports and News! Here are clips of my work in front of and behind the camera."
+        imageSrc="/television/wrigley_standup.webp"
+        imageAlt="Television standup at Wrigley Field"
+      />
 
-      <section className="television-section">
-        <div className="television-section-head">
-          <h2>In Studio</h2>
-        </div>
+      <WorkSection title="In Studio">
         <div className="television-grid">
-          <a className="television-card" href="https://drive.google.com/file/d/1-OioAaqjvQN9YNYeUVnN3Mvkf5GDo4Vd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-            <img src="/television/noticiero_northwestern.webp" alt="Noticiero Northwestern set" className="television-card-image" />
-            <div className="television-card-body">
-              <h3>“Noticiero Northwestern” Bad Bunny Super Bowl Explainer (Spanish)</h3>
-              <p className="television-date">2/3/26</p>
-            </div>
-          </a>
-          <a className="television-card" href="https://drive.google.com/file/d/1jejO3DuJPaXHHr3LPD8zmbIsyFxK-rtS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-            <img src="/television/politicat_on-desk.webp" alt="Politicat on-desk" className="television-card-image" />
-            <div className="television-card-body">
-              <h3>“Politicat” One Year of Trump Explainer</h3>
-              <p className="television-date">1/20/26</p>
-            </div>
-          </a>
-          <a className="television-card" href="https://youtu.be/uJTdrvqxRCE" target="_blank" rel="noopener noreferrer">
-            <img src="/television/sportsnight_on-desk.webp" alt="SportsNight anchoring" className="television-card-image" />
-            <div className="television-card-body">
-              <h3>“SportsNight” Anchoring</h3>
-              <p className="television-date">11/13/25</p>
-            </div>
-          </a>
-          <a className="television-card" href="https://www.instagram.com/reel/DO95Us8DKlj" target="_blank" rel="noopener noreferrer">
-            <img src="/television/espn_ahora_o_nunca.webp" alt="Appearance on ESPN Ahora o Nunca" className="television-card-image" />
-            <div className="television-card-body">
-              <h3>Appearance on ESPN’s “Ahora o Nunca” (Spanish)</h3>
-              <p className="television-date">7/10/25</p>
-            </div>
-          </a>
-          <a className="television-card" href="https://youtu.be/323xQc-qSJU" target="_blank" rel="noopener noreferrer">
-            <img src="/television/wildcat_gameday_preview_on-desk.webp" alt="Wildcat Gameday Preview desk" className="television-card-image" />
-            <div className="television-card-body">
-              <h3>“Wildcat Gameday Preview” Anchoring</h3>
-              <p className="television-date">10/11/24</p>
-            </div>
-          </a>
+          {studioItems.map((item, index) => (
+            <WorkCard
+              key={index}
+              href={item.href}
+              imageSrc={item.imageSrc}
+              imageAlt={item.imageAlt}
+              title={item.title}
+              date={item.date}
+              onClick={handleCardClick}
+            />
+          ))}
         </div>
-      </section>
+      </WorkSection>
 
-      <section className="television-section">
-        <div className="television-section-head">
-          <h2>Standup Packages</h2>
-        </div>
-
+      <WorkSection title="Standup Packages">
         <MediaGrid
           items={[
             {
@@ -82,38 +152,23 @@ function TelevisionPage() {
               title: 'WBB sidelines',
               subtitle: 'Courtside reporting',
               src: '/television/wbb_sidelines.webp',
-              alt: 'Women’s basketball sidelines',
+              alt: 'Women\'s basketball sidelines',
               subdued: true,
             },
             {
               title: 'Welsh-Ryan Arena 1',
-              subtitle: 'Men’s basketball coverage',
+              subtitle: 'Men\'s basketball coverage',
               src: '/television/welsh-ryan_arena_1.webp',
               alt: 'Welsh-Ryan Arena standup',
               subdued: true,
             },
           ]}
         />
+      </WorkSection>
 
-        <div className="television-section-head">
-          <h2>Highlights</h2>
-        </div>
-        <div className="television-list">
-          <ul>
-            <li><a href="https://x.com/NNNSports/status/2017092728224452837?s=20" target="_blank" rel="noopener noreferrer">Men’s Basketball: Northwestern vs Penn State Postgame Standup</a> <span className="television-date">1/29/26</span></li>
-            <li><a href="https://x.com/NNNSports/status/2011620412665541087" target="_blank" rel="noopener noreferrer">Men’s Basketball: Northwestern vs #13 Illinois Pregame Standup</a> <span className="television-date">1/14/26</span></li>
-            <li><a href="https://x.com/NNNSports/status/2007568993284956531" target="_blank" rel="noopener noreferrer">Men’s Basketball: Northwestern vs Minnesota Pregame Standup</a> <span className="television-date">1/3/26</span></li>
-            <li><a href="https://x.com/NNNSports/status/1996413955775123614" target="_blank" rel="noopener noreferrer">Women’s Basketball vs Kansas Postgame Standup</a> <span className="television-date">12/3/25</span></li>
-            <li><a href="https://x.com/NNNSports/status/1974560702053675038" target="_blank" rel="noopener noreferrer">Football: Northwestern vs ULM Pregame Standup</a> <span className="television-date">10/4/25</span></li>
-            <li><a href="https://x.com/NNNSports/status/1964111420045287425" target="_blank" rel="noopener noreferrer">Football: Northwestern vs Western Illinois Pregame Standup</a> <span className="television-date">9/5/25</span></li>
-            <li><a href="https://x.com/NNNSports/status/1920983647101837351" target="_blank" rel="noopener noreferrer">Baseball at Wrigley Field: Northwestern vs Ohio State Pregame Standup</a> <span className="television-date">5/9/25</span></li>
-            <li><a href="https://x.com/NNNSports/status/1888683929387102461" target="_blank" rel="noopener noreferrer">Women’s Basketball: Northwestern vs Penn State Halftime Standup</a> <span className="television-date">2/9/25</span></li>
-            <li><a href="https://x.com/NNNSports/status/1880385871381402044" target="_blank" rel="noopener noreferrer">Men’s Basketball: Northwestern vs Maryland Postgame Standup</a> <span className="television-date">1/16/25</span></li>
-            <li><a href="https://x.com/NNNSports/status/1860402788083114320" target="_blank" rel="noopener noreferrer">Women’s Basketball: Northwestern vs Harvard Halftime Standup</a> <span className="television-date">11/23/24</span></li>
-            <li><a href="https://x.com/NNNSports/status/1857587132593844234" target="_blank" rel="noopener noreferrer">Men’s Basketball: Northwestern vs Eastern Illinois Pregame Standup</a> <span className="television-date">11/15/24</span></li>
-          </ul>
-        </div>
-      </section>
+      <WorkSection title="Highlights">
+        <WorkList items={highlights} />
+      </WorkSection>
     </main>
   )
 }
