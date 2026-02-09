@@ -33,7 +33,7 @@ function SocialMediaPage() {
 
   const highlights = [
     {
-      title: "Chicago Fire FC Sector Latino Interviews",
+      title: "Chicago Fire FC Sector Latino Interviews (Bilingual)",
       href: "https://www.instagram.com/reel/DRdkAIwjXZG",
       date: "11/24/25"
     },
