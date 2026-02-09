@@ -11,7 +11,7 @@ function DocumentaryPage() {
       date: "2/3/26"
     },
     {
-      title: "La Liga de Basket de Lima Finals Game 2 Pregame Standup",
+      title: "La Liga de Basket de Lima Finals Game 2 Pregame Standup (English)",
       href: "https://www.instagram.com/reel/DSOU9GkDE2p",
       date: "12/13/25"
     },
