@@ -19,7 +19,7 @@ function SocialMediaPage() {
       href: "https://www.instagram.com/reel/DRdkAIwjXZG",
       imageSrc: "/social/chicago_fire.webp",
       imageAlt: "Chicago Fire FC Sector Latino interviews",
-      title: "Chicago Fire FC Sector Latino Interviews",
+      title: "Chicago Fire FC Sector Latino Interviews (Bilingual)",
       date: "11/24/25"
     },
     {
