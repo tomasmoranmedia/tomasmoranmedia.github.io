@@ -24,7 +24,7 @@ function SocialMediaPage() {
     },
     {
       href: "https://www.instagram.com/reel/DPj97HJis6i/",
-      imageSrc: "/social/teresa_limon_interview.webp",
+      imageSrc: "/social/football_field.heic",
       imageAlt: "Interview with Rafael Ponce de Leon",
       title: "Northwestern Latino Alumni Homecoming Tailgate Social Media Package (Spanish)",
       date: "10/8/25"
