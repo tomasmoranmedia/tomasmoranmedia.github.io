@@ -29,7 +29,7 @@ function RadioPage() {
       imageSrc: "/radio/obscure_ballers_logo.webp",
       imageAlt: "Obscure Ballers logo",
       title: "Obscure Ballers Instagram",
-      date:
+      date: ""
     }
   ]
 
