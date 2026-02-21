@@ -33,6 +33,11 @@ function SocialMediaPage() {
 
   const highlights = [
     {
+      title: "Chicago Stars in Evanston Social Media Package",
+      href: "https://www.instagram.com/reel/DU14EcRCtWb/?igsh=amhobTFnOXRtazEz",
+      date: "2/16/26"
+    },
+    {
       title: "Chicago Fire FC Sector Latino Interviews (Bilingual)",
       href: "https://www.instagram.com/reel/DRdkAIwjXZG",
       date: "11/24/25"
@@ -51,6 +56,16 @@ function SocialMediaPage() {
       title: "Northwestern Latino Alumni Homecoming Tailgate Social Media Package (Spanish)",
       href: "https://www.instagram.com/reel/DPj97HJis6i/",
       date: "10/8/25"
+    },
+    {
+      title: "Obscure Ballers Peru 1975 Copa America Final Reel Part 2",
+      href: "https://www.instagram.com/reel/DO9AZjEEZYT/?igsh=MXVkbmU1cnZyeTZuZQ%3D%3D",
+      date: "9/23/25"
+    },
+    {
+      title: "Obscure Ballers Peru 1975 Copa America Final Reel Part 1",
+      href: "https://www.instagram.com/reel/DO8_yKeEdT6/?igsh=dHA5cjlvOGpjNTV2",
+      date: "9/23/25"
     },
     {
       title: "Men's Soccer: Northwestern vs Rutgers Preview (Spanish)",
