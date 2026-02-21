@@ -40,7 +40,7 @@ function TelevisionPage() {
     },
     {
       href: "https://www.instagram.com/reel/DO95Us8DKlj",
-      imageSrc: "/television/espn_ahora_o_nunca.webp",
+      imageSrc: "/television/espn_ahora_o_nunca_new.jpg",
       imageAlt: "Appearance on ESPN Ahora o Nunca",
       title: "Appearance on ESPN's \"Ahora o Nunca\" (Spanish)",
       date: "7/10/25"
