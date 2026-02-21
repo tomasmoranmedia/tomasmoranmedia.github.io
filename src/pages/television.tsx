@@ -12,7 +12,7 @@ function TelevisionPage() {
   const studioItems = [
     {
       href: "https://drive.google.com/file/d/1C73yh56cpyNcX1QjrYyW7RgKnwFFi9SE/view",
-      imageSrc: "/television/Television_Lima Costa Verde.HEIC",
+      imageSrc: "/television/costa verde.heic",
       imageAlt: "Lima Costa Verde",
       title: "\"Noticiero Northwestern\" Keenan Fitzmorris in Peru Package (Spanish)",
       date: "2/3/26"
