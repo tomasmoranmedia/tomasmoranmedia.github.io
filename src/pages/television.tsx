@@ -121,7 +121,7 @@ const Standups = [
         imageAlt="Television standup at Wrigley Field"
       />
 
-      <WorkSection title="In-Studio">
+      <WorkSection title="On-Air">
         <div className="television-grid">
           {studioItems.map((item, index) => (
             <WorkCard
