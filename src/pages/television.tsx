@@ -109,7 +109,7 @@ const Standups = [
       <WorkPageHero
         category="Television"
         title="Television"
-        description="I'm a reporter, editor and anchor for Northwestern News Network (NNN) Sports and News! Here are clips of my work in front of and behind the camera."
+        description="I'm a reporter, editor and anchor for Northwestern News Network (NNN) News and Sports! I work on the "SportsNight," "Political" and "Noticiero Northwestern" shows, all broadcast live on YouTube. Here are clips of my work in front of and behind the camera."
         imageSrc="/television/wrigley_standup.webp"
         imageAlt="Television standup at Wrigley Field"
       />
