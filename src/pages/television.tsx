@@ -35,14 +35,14 @@ function TelevisionPage() {
       href: "https://drive.google.com/file/d/1jejO3DuJPaXHHr3LPD8zmbIsyFxK-rtS/view?usp=sharing",
       imageSrc: "/television/politicat_on-desk.webp",
       imageAlt: "Politicat on-desk",
-      title: "\"Politicat\" One Year of Trump Explainer",
+      title: "\"Politicat\" One Year of Trump Explainer (English)",
       date: "1/20/26"
     },
     {
       href: "https://youtu.be/uJTdrvqxRCE",
       imageSrc: "/television/sportsnight_on-desk.webp",
       imageAlt: "SportsNight anchoring",
-      title: "\"SportsNight\" Anchoring",
+      title: "\"SportsNight\" Anchoring (English)",
       date: "11/13/25"
     },
     {
@@ -56,7 +56,7 @@ function TelevisionPage() {
       href: "https://youtu.be/323xQc-qSJU",
       imageSrc: "/television/wildcat_gameday_preview_on-desk.webp",
       imageAlt: "Wildcat Gameday Preview desk",
-      title: "\"Wildcat Gameday Preview\" Anchoring",
+      title: "\"Wildcat Gameday Preview\" Anchoring (English)",
       date: "10/11/24"
     }
   ]
