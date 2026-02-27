@@ -6,6 +6,11 @@ import WorkList from '../components/workList'
 function DocumentaryPage() {
   const coverage = [
     {
+      title: "\"SportsNight\" Keenan Fitzmorris in Peru Package (English)",
+      href: "https://drive.google.com/file/d/1JOeiImnmEFLfLfNq14pGVbyOYHfRJZnx/view?usp=sharing",
+      date: "2/26/26"
+    },
+    {
       title: "\"Noticiero Northwestern\" Keenan Fitzmorris in Peru Package (Spanish)",
       href: "https://drive.google.com/file/d/1C73yh56cpyNcX1QjrYyW7RgKnwFFi9SE/view?usp=sharing",
       date: "2/3/26"
@@ -42,7 +47,7 @@ function DocumentaryPage() {
       <WorkPageHero
         category="Documentary"
         title="Documentary"
-        description="How does basketball survive in the only country that lacks a national team due to governmental instability? I'm currently producing a bilingual basketball documentary about the state of Peruvian basketball and former Northwestern player Keenan Fitzmorris' experience playing in Lima. Having wrapped filming in December, it's set to be published by WNUR Sports this spring!"
+        description="How does basketball survive in the only country without a national team due to governmental instability? I'm currently producing a bilingual basketball documentary about the state of Peruvian basketball and former Northwestern player Keenan Fitzmorris' experience playing in Lima. Having wrapped filming in Peru last December, it's set to be published by WNUR Sports this spring!"
         imageSrc="/documentary/camera.webp"
         imageAlt="Holding a camera while filming in Lima"
       />
