@@ -14,7 +14,7 @@ function TelevisionPage() {
       href: "https://drive.google.com/file/d/1JOeiImnmEFLfLfNq14pGVbyOYHfRJZnx/view?usp=sharing",
       imageSrc: "/television/costa verde.heic",
       imageAlt: "Lima Costa Verde",
-      title: "\"Noticiero Northwestern\" Keenan Fitzmorris in Peru Package (English)",
+      title: "\"SportsNight\" Keenan Fitzmorris in Peru Package (English)",
       date: "2/26/26"
     },
     {
