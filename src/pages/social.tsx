@@ -33,7 +33,12 @@ function SocialMediaPage() {
 
   const highlights = [
     {
-      title: "Chicago Stars in Evanston Social Media Package",
+      title: "Chicago Stars in Evanston Social Media Package (Spanish)",
+      href: "https://www.instagram.com/reel/DVPIj-mDnl1/?igsh=MTZjYTNybDkzcDhteQ%3D%3D",
+      date: "2/26/26"
+    },
+    {
+      title: "Chicago Stars in Evanston Social Media Package (English)",
       href: "https://www.instagram.com/reel/DU14EcRCtWb/?igsh=amhobTFnOXRtazEz",
       date: "2/16/26"
     },
