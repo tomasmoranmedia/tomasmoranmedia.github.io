@@ -67,8 +67,8 @@ function RadioPage() {
 
       <MediaGrid
         items={[
-          { src: '/radio/wbb_broadcast.webp', alt: 'Radio: WBB broadcast', subdued: true },
           { src: '/radio/united_center_court.webp', alt: 'Radio: United Center court', subdued: true },
+          { src: '/radio/wintrust_arena.heic', alt: 'Radio: WBB broadcast', subdued: true },
           { src: '/radio/ihsa_state_finals.webp', alt: 'Radio: IHSA State Finals', subdued: true },
           { src: '/radio/indiana.webp', alt: 'Radio: Indiana', subdued: true },
         ]}
