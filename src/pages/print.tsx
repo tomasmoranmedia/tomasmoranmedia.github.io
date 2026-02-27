@@ -81,7 +81,7 @@ function PrintPage() {
       date: "9/5/23"
     },
     {
-      title: "Feature story: Wheaton Warrenville South looks forward to success- Chicagoland Soccer",
+      title: "Feature story: Wheaton Warrenville South looks forward to success - Chicagoland Soccer",
       href: "https://www.chicagolandsoccer.org/news_article/show/1244997",
       date: "4/13/23"
     }
