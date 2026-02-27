@@ -11,6 +11,13 @@ function TelevisionPage() {
 
   const studioItems = [
     {
+      href: "https://drive.google.com/file/d/1JOeiImnmEFLfLfNq14pGVbyOYHfRJZnx/view?usp=sharing",
+      imageSrc: "/television/costa verde.heic",
+      imageAlt: "Lima Costa Verde",
+      title: "\"Noticiero Northwestern\" Keenan Fitzmorris in Peru Package (English)",
+      date: "2/26/26"
+    },
+    {
       href: "https://drive.google.com/file/d/1C73yh56cpyNcX1QjrYyW7RgKnwFFi9SE/view",
       imageSrc: "/television/costa verde.heic",
       imageAlt: "Lima Costa Verde",
@@ -116,7 +123,7 @@ const Standups = [
       <WorkPageHero
         category="Television"
         title="Television"
-        description="I'm a reporter, editor and anchor for Northwestern News Network (NNN) News and Sports! I work on the SportsNight, Politicat and Noticiero Northwestern shows, all broadcast live on YouTube. As a sideline reporter, I film Northwestern games and produce standups in the field. Here are clips of my work in front of and behind the camera."
+        description="I'm a reporter, editor and anchor for Northwestern News Network (NNN) News and Sports! I anchor, produce packages and edit highlights for the weekly SportsNight show, plus I've been featured on the Politicat and Noticiero Northwestern programs. All broadcasts are livestreamed on YouTube. As a sideline reporter, I produce standups in the field and film Northwestern basketball, football and baseball. This included a trip to Wrigley Field to cover NU baseball. Here are clips of my work in front of and behind the camera!"
         imageSrc="/television/wrigley_standup.webp"
         imageAlt="Television standup at Wrigley Field"
       />
