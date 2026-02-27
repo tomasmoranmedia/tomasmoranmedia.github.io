@@ -100,7 +100,7 @@ function PrintPage() {
       <WorkSection>
         <MediaGrid
           items={[
-            { src: '/print/2024-finals.webp', alt: '2024 state finals', subdued: true },
+            { src: '/social/chicago_fire.webp', alt: 'Chicago Fire FC Sector Latino interview', subdued: true },
             { src: '/print/dave.webp', alt: 'Dave', subdued: true },
           ]}
         />
