@@ -43,11 +43,6 @@ function SocialMediaPage() {
       date: "2/16/26"
     },
     {
-      title: "Chicago Fire FC Sector Latino Interviews (Bilingual)",
-      href: "https://www.instagram.com/reel/DRdkAIwjXZG",
-      date: "11/24/25"
-    },
-    {
       title: "Interview with Rafael Ponce de Leon (Bilingual)",
       href: "https://www.instagram.com/reel/DQf0pRuDKdW",
       date: "10/31/25"
@@ -56,11 +51,6 @@ function SocialMediaPage() {
       title: "Interview with Teresa Limon (Spanish)",
       href: "https://www.instagram.com/reel/DP5CQvoDNcc",
       date: "10/16/25"
-    },
-    {
-      title: "Northwestern Latino Alumni Homecoming Tailgate Social Media Package (Spanish)",
-      href: "https://www.instagram.com/reel/DPj97HJis6i/",
-      date: "10/8/25"
     },
     {
       title: "Obscure Ballers Peru 1975 Copa America Final Reel Part 2 (English)",
