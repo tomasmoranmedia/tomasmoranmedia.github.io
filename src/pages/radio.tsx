@@ -34,12 +34,12 @@ function RadioPage() {
 
   const highlights = [
     {
-      title: "Men's Basketball: Northwestern at DePaul Broadcast Clip",
+      title: "Men's Basketball: Northwestern at DePaul Broadcast Clip (English)",
       href: "https://www.instagram.com/reel/DRF9b1zkrDV/",
       date: "11/14/25"
     },
     {
-      title: "Women's Soccer: Northwestern vs Illinois Broadcast Clip",
+      title: "Women's Soccer: Northwestern vs Illinois Broadcast Clip (English)",
       href: "https://www.instagram.com/reel/DP6pWjpjVPJ/",
       date: "10/16/25"
     },
@@ -60,7 +60,7 @@ function RadioPage() {
       <WorkPageHero
         category="Radio"
         title="Radio"
-        description={"As managing editor at WNUR Sports, I have the opportunity of live broadcasting Northwestern men's and women's soccer, men's and women's basketball, women's volleyball, women's lacrosse, football, softball and baseball. As a student intern at 98.3FM The Life, I connect with the Lake County community through high school football and basketball broadcasts and hosting the weekly \"Swamp Ratt\" college sports segment."}
+        description={"As WNUR Sports Managing Editor, I'm the chief station editor and have the opportunity of live broadcasting Northwestern soccer, basketball, volleyball, lacrosse, football, softball and baseball. As a student intern at 98.3FM The Life, I connect with the Lake County community through high school basketball and football broadcasts and hosting the \"Swamp Ratt\" college sports segment on the weekly \"Sports Corner\" Saturday morning show."}
         imageSrc="/radio/soccer_broadcast.webp"
         imageAlt="Calling a Northwestern soccer match"
       />
@@ -76,7 +76,7 @@ function RadioPage() {
 
       <WorkSection 
         title="Obscure Ballers"
-        description="I co-hosted Obscure Ballers, a live WNUR Sports talk show broadcast on radio and YouTube every Sunday for its 14-week run in the fall of 2025. Here are the episodes and social media for the program!"
+        description="I co-hosted Obscure Ballers, a live WNUR Sports talk show broadcast on radio and YouTube every Sunday for its 14-week run in the fall of 2025. Here are the program's episodes and social media account!"
       >
         <div className="television-grid">
           {obscureBallersItems.map((item, index) => (
