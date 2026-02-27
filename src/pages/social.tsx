@@ -74,7 +74,7 @@ function SocialMediaPage() {
       <WorkPageHero
         category="Social Media"
         title="Social Media"
-        description="I edit and create bilingual social media content for NNN Sports and News, WNUR Sports, Obscure Ballers and my own accounts. I was also covered the Chicago Fire's 2025 MLS playoff run on socials with 98.3FM The Life."
+        description="I edit and create bilingual social media content for NNN Sports and News, WNUR Sports, Obscure Ballers and my own accounts. I also covered the Chicago Fire's 2025 MLS playoff run on socials with 98.3FM The Life!"
         imageSrc="/social/teresa_limon.webp"
         imageAlt="Chicago Fire FC Sector Latino interviews"
       />
