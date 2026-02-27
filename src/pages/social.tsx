@@ -63,12 +63,12 @@ function SocialMediaPage() {
       date: "10/8/25"
     },
     {
-      title: "Obscure Ballers Peru 1975 Copa America Final Reel Part 2",
+      title: "Obscure Ballers Peru 1975 Copa America Final Reel Part 2 (English)",
       href: "https://www.instagram.com/reel/DO9AZjEEZYT/?igsh=MXVkbmU1cnZyeTZuZQ%3D%3D",
       date: "9/23/25"
     },
     {
-      title: "Obscure Ballers Peru 1975 Copa America Final Reel Part 1",
+      title: "Obscure Ballers Peru 1975 Copa America Final Reel Part 1 (English)",
       href: "https://www.instagram.com/reel/DO8_yKeEdT6/?igsh=dHA5cjlvOGpjNTV2",
       date: "9/23/25"
     },
@@ -84,7 +84,7 @@ function SocialMediaPage() {
       <WorkPageHero
         category="Social Media"
         title="Social Media"
-        description="I edit and create bilingual social media content NNN Sports and News, WNUR Sports, Obscure Ballers and my own accounts. I was also able to cover the Chicago Fire's 2025 MLS playoff run on socials with 98.3FM The Life."
+        description="I edit and create bilingual social media content for NNN Sports and News, WNUR Sports, Obscure Ballers and my own accounts. I was also able to cover the Chicago Fire's 2025 MLS playoff run on socials with 98.3FM The Life."
         imageSrc="/social/teresa_limon.webp"
         imageAlt="Chicago Fire FC Sector Latino interviews"
       />
