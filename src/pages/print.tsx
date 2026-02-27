@@ -106,7 +106,7 @@ function PrintPage() {
         />
       </WorkSection>
 
-      <WorkSection title="Selected articles">
+      <WorkSection title="Articles">
         <WorkList items={articles} />
       </WorkSection>
     </main>
