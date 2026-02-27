@@ -53,6 +53,13 @@ function TelevisionPage() {
       date: "7/10/25"
     },
     {
+      href: "https://drive.google.com/file/d/1zIcIn8YkwuJTALPq-SsbrvhAHLeCCUXc/view?usp=sharing",
+      imageSrc: "/television/wrestling.png",
+      imageAlt: "Wildcat Gameday Preview desk",
+      title: "\"SportsNight\" Wrestling Senior Night Package (English)",
+      date: "2/27/25"
+    },
+    {
       href: "https://youtu.be/323xQc-qSJU",
       imageSrc: "/television/wildcat_gameday_preview_on-desk.webp",
       imageAlt: "Wildcat Gameday Preview desk",
