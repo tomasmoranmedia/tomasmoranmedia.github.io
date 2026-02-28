@@ -49,6 +49,11 @@ function RadioPage() {
       date: "9/25/25"
     },
     {
+      title: "WNUR Sports Call of the Week Men's Soccer: Northwestern vs Rutgers (Spanish)",
+      href: "https://www.instagram.com/reel/DO487_LjEqe/?igsh=cG80b2E0OWdpMmhq",
+      date: "9/21/25"
+    },
+    {
       title: "Men's Soccer: Northwestern vs Rutgers Broadcast Clip (Spanish)",
       href: "https://www.instagram.com/reel/DO1mdHqEmmY",
       date: "9/19/25"
