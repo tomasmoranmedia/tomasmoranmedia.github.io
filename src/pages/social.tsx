@@ -10,10 +10,10 @@ function SocialMediaPage() {
 
   const socialItems = [
     {
-      href: "https://www.instagram.com/obscureballers",
-      imageSrc: "/radio/obscure_ballers_logo.webp",
+      href: "https://www.instagram.com/reel/DVR2kC5kSmJ/?igsh=MTRwa3BxNHB0aGI5eQ==",
+      imageSrc: "/radio/lima_cerro.heic",
       imageAlt: "Interview with Teresa Limon",
-      title: "Obscure Ballers Instagram"
+      title: "WNUR Sports Peru Road Trip Reel (English)"
     },
     {
       href: "https://www.instagram.com/reel/DRdkAIwjXZG",
