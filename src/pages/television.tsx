@@ -12,7 +12,7 @@ function TelevisionPage() {
   const studioItems = [
     {
       href: "https://drive.google.com/file/d/1JOeiImnmEFLfLfNq14pGVbyOYHfRJZnx/view?usp=sharing",
-      imageSrc: "/television/costa verde.heic",
+      imageSrc: "/television/costa_verde_reel.heic",
       imageAlt: "Lima Costa Verde",
       title: "\"SportsNight\" Keenan Fitzmorris in Peru Package (English)",
       date: "2/26/26"
