@@ -33,7 +33,7 @@ function SocialMediaPage() {
       href: "https://www.instagram.com/reel/DPj97HJis6i/",
       imageSrc: "/social/football_field.heic",
       imageAlt: "Interview with Rafael Ponce de Leon",
-      title: "NNN News Northwestern Latino Alumni Homecoming Tailgate Social Media Package (Spanish)",
+      title: "NNN News Latino Alumni Homecoming Tailgate Social Media Package (Spanish)",
       date: "10/8/25"
     }
   ]
