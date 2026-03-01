@@ -28,7 +28,7 @@ function RadioPage() {
       href: "https://www.instagram.com/obscureballers",
       imageSrc: "/radio/obscure_ballers_logo.webp",
       imageAlt: "Obscure Ballers logo",
-      title: "Obscure Ballers Instagram",
+      title: "Obscure Ballers Instagram Account",
     }
   ]
 
