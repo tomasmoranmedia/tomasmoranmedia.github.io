@@ -10,10 +10,10 @@ function SocialMediaPage() {
 
   const socialItems = [
     {
-      href: "https://www.instagram.com/obscureballers",
+      href: "https://www.instagram.com/tomasmoranmedia?igsh=MW41aG1wajBkcXRhcw==",
       imageSrc: "/radio/obscure_ballers_logo.webp",
       imageAlt: "Interview with Teresa Limon",
-      title: "Obscure Ballers Instagram"
+      title: "My Instagram Account"
     },
     {
       href: "https://www.instagram.com/reel/DVR2kC5kSmJ/?igsh=MTRwa3BxNHB0aGI5eQ==",
