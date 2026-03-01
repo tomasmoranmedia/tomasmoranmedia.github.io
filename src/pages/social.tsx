@@ -10,10 +10,12 @@ function SocialMediaPage() {
 
   const socialItems = [
     {
+    },
+    {
       href: "https://www.instagram.com/reel/DVR2kC5kSmJ/?igsh=MTRwa3BxNHB0aGI5eQ==",
       imageSrc: "/social/lima_cerro.heic",
-      imageAlt: "Interview with Teresa Limon",
-      title: "WNUR Sports Peru Road Trip Reel (English)"
+      imageAlt: "Chicago Fire FC Sector Latino interviews",
+      title: "WNUR Sports Peru Road Trip Reel (English)",
       date: "2/27/26"
     },
     {
