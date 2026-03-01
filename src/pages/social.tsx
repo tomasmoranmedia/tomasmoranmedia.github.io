@@ -13,7 +13,7 @@ function SocialMediaPage() {
       href: "https://www.instagram.com/tomasmoranmedia?igsh=MW41aG1wajBkcXRhcw==",
       imageSrc: "/home/headshot.webp",
       imageAlt: "Interview with Teresa Limon",
-      title: "My Instagram Account"
+      title: "My Instagram Account @tomasmoranmedia"
     },
     {
       href: "https://www.instagram.com/reel/DVR2kC5kSmJ/?igsh=MTRwa3BxNHB0aGI5eQ==",
@@ -33,19 +33,19 @@ function SocialMediaPage() {
       href: "https://www.instagram.com/reel/DPj97HJis6i/",
       imageSrc: "/social/football_field.heic",
       imageAlt: "Interview with Rafael Ponce de Leon",
-      title: "Northwestern Latino Alumni Homecoming Tailgate Social Media Package (Spanish)",
+      title: "NNN News Northwestern Latino Alumni Homecoming Tailgate Social Media Package (Spanish)",
       date: "10/8/25"
     }
   ]
 
   const highlights = [
     {
-      title: "Chicago Stars in Evanston Social Media Package (Spanish)",
+      title: "NNN News Chicago Stars in Evanston Social Media Package (Spanish)",
       href: "https://www.instagram.com/reel/DVPIj-mDnl1/?igsh=MTZjYTNybDkzcDhteQ%3D%3D",
       date: "2/26/26"
     },
     {
-      title: "Chicago Stars in Evanston Social Media Package (English)",
+      title: "NNN News Chicago Stars in Evanston Social Media Package (English)",
       href: "https://www.instagram.com/reel/DU14EcRCtWb/?igsh=amhobTFnOXRtazEz",
       date: "2/16/26"
     },
