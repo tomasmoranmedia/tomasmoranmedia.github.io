@@ -14,6 +14,7 @@ function SocialMediaPage() {
       imageSrc: "/social/lima_cerro.heic",
       imageAlt: "Interview with Teresa Limon",
       title: "WNUR Sports Peru Road Trip Reel (English)"
+      date: "2/27/25"
     },
     {
       href: "https://www.instagram.com/reel/DRdkAIwjXZG",
