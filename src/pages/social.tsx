@@ -16,6 +16,13 @@ function SocialMediaPage() {
       title: "Obscure Ballers Instagram"
     },
     {
+      href: "https://www.instagram.com/reel/DVR2kC5kSmJ/?igsh=MTRwa3BxNHB0aGI5eQ==",
+      imageSrc: "/social/lima_cerro.heic",
+      imageAlt: "Chicago Fire FC Sector Latino interviews",
+      title: "WNUR Sports Peru Road Trip Reel (English)",
+      date: "2/27/26"
+    },
+    {
       href: "https://www.instagram.com/reel/DRdkAIwjXZG",
       imageSrc: "/social/encendidos.jpg",
       imageAlt: "Chicago Fire FC Sector Latino interviews",
