@@ -16,12 +16,12 @@ function DocumentaryPage() {
       date: "2/3/26"
     },
     {
-      title: "La Liga de Basket de Lima Finals Game 2 Pregame Standup (English)",
+      title: "La Liga de Basket de Lima Finals Game 2 Preview (English)",
       href: "https://www.instagram.com/reel/DSOU9GkDE2p",
       date: "12/13/25"
     },
     {
-      title: "Interview with Chiki Villalobos (Spanish)",
+      title: "Dinosaurios Guard Chiki Villalobos Interview (Spanish)",
       href: "https://www.instagram.com/reel/DSLr_2GErFi",
       date: "12/12/25"
     },
@@ -36,7 +36,7 @@ function DocumentaryPage() {
       date: "12/9/25"
     },
     {
-      title: "La Liga de Basket de Lima Semifinals Pregame Standup (Spanish)",
+      title: "La Liga de Basket de Lima Semifinals Preview (Spanish)",
       href: "https://www.instagram.com/reel/DR8VYjkDN-D",
       date: "12/6/25"
     }
