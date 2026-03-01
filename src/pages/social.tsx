@@ -10,7 +10,12 @@ function SocialMediaPage() {
 
   const socialItems = [
     {
+      href: "https://www.instagram.com/obscureballers",
+      imageSrc: "/radio/obscure_ballers_logo.webp",
+      imageAlt: "Interview with Teresa Limon",
+      title: "Obscure Ballers Instagram"
     },
+    {
       href: "https://www.instagram.com/reel/DRdkAIwjXZG",
       imageSrc: "/social/encendidos.jpg",
       imageAlt: "Chicago Fire FC Sector Latino interviews",
