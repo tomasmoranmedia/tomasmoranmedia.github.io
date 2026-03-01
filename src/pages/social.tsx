@@ -50,12 +50,12 @@ function SocialMediaPage() {
       date: "2/16/26"
     },
     {
-      title: "Interview with Rafael Ponce de Leon (Bilingual)",
+      title: "Northwestern Goalkeeper Rafael Ponce de Leon Interview (Bilingual)",
       href: "https://www.instagram.com/reel/DQf0pRuDKdW",
       date: "10/31/25"
     },
     {
-      title: "Interview with Teresa Limon (Spanish)",
+      title: "Chicago Fire Color Commentator Teresa Limon Interview (Spanish)",
       href: "https://www.instagram.com/reel/DP5CQvoDNcc",
       date: "10/16/25"
     },
