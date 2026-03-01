@@ -11,7 +11,6 @@ function SocialMediaPage() {
   const socialItems = [
     {
     },
-    {
       href: "https://www.instagram.com/reel/DVR2kC5kSmJ/?igsh=MTRwa3BxNHB0aGI5eQ==",
       imageSrc: "/social/lima_cerro.heic",
       imageAlt: "Chicago Fire FC Sector Latino interviews",
