@@ -11,7 +11,7 @@ function SocialMediaPage() {
   const socialItems = [
     {
       href: "https://www.instagram.com/tomasmoranmedia?igsh=MW41aG1wajBkcXRhcw==",
-      imageSrc: "/radio/obscure_ballers_logo.webp",
+      imageSrc: "/home/headshot.webp",
       imageAlt: "Interview with Teresa Limon",
       title: "My Instagram Account"
     },
