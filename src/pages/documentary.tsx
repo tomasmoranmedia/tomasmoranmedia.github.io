@@ -6,16 +6,6 @@ import WorkList from '../components/workList'
 function DocumentaryPage() {
   const coverage = [
     {
-      title: "\"SportsNight\" Keenan Fitzmorris in Peru Package (English)",
-      href: "https://drive.google.com/file/d/1JOeiImnmEFLfLfNq14pGVbyOYHfRJZnx/view?usp=sharing",
-      date: "2/26/26"
-    },
-    {
-      title: "\"Noticiero Northwestern\" Keenan Fitzmorris in Peru Package (Spanish)",
-      href: "https://drive.google.com/file/d/1C73yh56cpyNcX1QjrYyW7RgKnwFFi9SE/view?usp=sharing",
-      date: "2/3/26"
-    },
-    {
       title: "La Liga de Basket de Lima Finals Game 2 Preview (English)",
       href: "https://www.instagram.com/reel/DSOU9GkDE2p",
       date: "12/13/25"
