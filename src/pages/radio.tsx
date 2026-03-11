@@ -45,7 +45,7 @@ function RadioPage() {
     },
     {
       title: "Women's Soccer: Northwestern vs #23 Ohio State Broadcast Clip (Spanish)",
-      href: "https://www.instagram.com/reel/DP6pWjpjVPJ/",
+      href: "https://www.instagram.com/reel/DPE2b0qiQvd/?igsh=MXM2Y3R2ejJzaTNqcg==",
       date: "9/25/25"
     },
     {
