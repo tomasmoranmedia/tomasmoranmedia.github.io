@@ -11,6 +11,13 @@ function TelevisionPage() {
 
   const studioItems = [
     {
+      href: "https://youtu.be/XjcVv2HnGms?si=wKuWv9zX9wQYA3Sj",
+      imageSrc: "/television/sportsnight 2.heic",
+      imageAlt: "Lima Costa Verde",
+      title: "\"SportsNight\" Anchoring (English)",
+      date: "3/12/26"
+    },
+    {
       href: "https://drive.google.com/file/d/1JOeiImnmEFLfLfNq14pGVbyOYHfRJZnx/view?usp=sharing",
       imageSrc: "/television/costa_verde_road.heic",
       imageAlt: "Lima Costa Verde",
