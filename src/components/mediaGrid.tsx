@@ -15,32 +15,27 @@ interface MediaGridProps {
 
 function MediaGrid({ items, className }: MediaGridProps) {
   return (
-    <div className={`television-grid standup-grid${className ? ` ${className}` : ''}`}>
+    <div className={`photo-grid${className ? ` ${className}` : ''}`}>
       {items.map((item, idx) => {
         const content = item.type === 'video' ? (
-          <video className="television-card-video" src={item.src} controls playsInline muted loop />
+          <video className="photo-grid-video" src={item.src} controls playsInline muted loop />
         ) : (
-          <img src={item.src} alt={item.alt} className="television-card-image" />
+          <img src={item.src} alt={item.alt} className="photo-grid-image" />
         )
 
         const key = `${item.src}-${idx}`
+        const itemClass = `photo-grid-item${item.subdued ? ' subdued' : ''}`
 
         if (item.href) {
           return (
-            <a
-              key={key}
-              className={`television-card${item.subdued ? ' subdued' : ''}`}
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a key={key} className={itemClass} href={item.href} target="_blank" rel="noopener noreferrer">
               {content}
             </a>
           )
         }
 
         return (
-          <div key={key} className={`television-card${item.subdued ? ' subdued' : ''}`}>
+          <div key={key} className={itemClass}>
             {content}
           </div>
         )

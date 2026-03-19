@@ -4,7 +4,7 @@ import './style.css'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import HomePage from './pages/home'
-import WorkPage from './pages/work'
+import AboutPage from './pages/about'
 import ResumePage from './pages/resume'
 import TelevisionPage from './pages/television'
 import DocumentaryPage from './pages/documentary'
@@ -18,8 +18,8 @@ function AppLayout() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/resume" element={<ResumePage />} />
-        <Route path="/work" element={<WorkPage />} />
         <Route path="/work/television" element={<TelevisionPage />} />
         <Route path="/work/documentary" element={<DocumentaryPage />} />
         <Route path="/work/radio" element={<RadioPage />} />

@@ -5,28 +5,24 @@ import WorkCard from '../components/workCard'
 import WorkList from '../components/workList'
 
 function TelevisionPage() {
-  const handleCardClick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
-
   const studioItems = [
     {
       href: "https://youtu.be/XjcVv2HnGms?si=wKuWv9zX9wQYA3Sj",
-      imageSrc: "/television/sportsnight 2.heic",
+      imageSrc: "/television/sportsnight 2.webp",
       imageAlt: "Lima Costa Verde",
       title: "\"SportsNight\" Anchoring (English)",
       date: "3/12/26"
     },
     {
       href: "https://drive.google.com/file/d/1JOeiImnmEFLfLfNq14pGVbyOYHfRJZnx/view?usp=sharing",
-      imageSrc: "/television/costa_verde_road.heic",
+      imageSrc: "/television/costa_verde_road.webp",
       imageAlt: "Lima Costa Verde",
       title: "\"SportsNight\" Keenan Fitzmorris in Peru Package (English)",
       date: "2/26/26"
     },
     {
       href: "https://drive.google.com/file/d/1C73yh56cpyNcX1QjrYyW7RgKnwFFi9SE/view",
-      imageSrc: "/television/costa verde.heic",
+      imageSrc: "/television/costa verde.webp",
       imageAlt: "Lima Costa Verde",
       title: "\"Noticiero Northwestern\" Keenan Fitzmorris in Peru Package (Spanish)",
       date: "2/3/26"
@@ -74,76 +70,33 @@ function TelevisionPage() {
       date: "10/11/24"
     }
   ]
-const Standups = [
-    {
-      title: "Men's Basketball: Northwestern vs Penn State Postgame Standup",
-      href: "https://x.com/NNNSports/status/2017092728224452837?s=20",
-      date: "1/29/26"
-    },
-    {
-      title: "Men's Basketball: Northwestern vs #13 Illinois Pregame Standup",
-      href: "https://x.com/NNNSports/status/2011620412665541087",
-      date: "1/14/26"
-    },
-    {
-      title: "Men's Basketball: Northwestern vs Minnesota Pregame Standup",
-      href: "https://x.com/NNNSports/status/2007568993284956531",
-      date: "1/3/26"
-    },
-    {
-      title: "Women's Basketball vs Kansas Postgame Standup",
-      href: "https://x.com/NNNSports/status/1996413955775123614",
-      date: "12/3/25"
-    },
-    {
-      title: "Football: Northwestern vs ULM Pregame Standup",
-      href: "https://x.com/NNNSports/status/1974560702053675038",
-      date: "10/4/25"
-    },
-    {
-      title: "Football: Northwestern vs Western Illinois Pregame Standup",
-      href: "https://x.com/NNNSports/status/1964111420045287425",
-      date: "9/5/25"
-    },
-    {
-      title: "Baseball at Wrigley Field: Northwestern vs Ohio State Pregame Standup",
-      href: "https://x.com/NNNSports/status/1920983647101837351",
-      date: "5/9/25"
-    },
-    {
-      title: "Women's Basketball: Northwestern vs Penn State Halftime Standup",
-      href: "https://x.com/NNNSports/status/1888683929387102461",
-      date: "2/9/25"
-    },
-    {
-      title: "Men's Basketball: Northwestern vs Maryland Postgame Standup",
-      href: "https://x.com/NNNSports/status/1880385871381402044",
-      date: "1/16/25"
-    },
-    {
-      title: "Women's Basketball: Northwestern vs Harvard Halftime Standup",
-      href: "https://x.com/NNNSports/status/1860402788083114320",
-      date: "11/23/24"
-    },
-    {
-      title: "Men's Basketball: Northwestern vs Eastern Illinois Pregame Standup",
-      href: "https://x.com/NNNSports/status/1857587132593844234",
-      date: "11/15/24"
-    }
+
+  const Standups = [
+    { title: "Men's Basketball: Northwestern vs Penn State Postgame Standup", href: "https://x.com/NNNSports/status/2017092728224452837?s=20", date: "1/29/26" },
+    { title: "Men's Basketball: Northwestern vs #13 Illinois Pregame Standup", href: "https://x.com/NNNSports/status/2011620412665541087", date: "1/14/26" },
+    { title: "Men's Basketball: Northwestern vs Minnesota Pregame Standup", href: "https://x.com/NNNSports/status/2007568993284956531", date: "1/3/26" },
+    { title: "Women's Basketball vs Kansas Postgame Standup", href: "https://x.com/NNNSports/status/1996413955775123614", date: "12/3/25" },
+    { title: "Football: Northwestern vs ULM Pregame Standup", href: "https://x.com/NNNSports/status/1974560702053675038", date: "10/4/25" },
+    { title: "Football: Northwestern vs Western Illinois Pregame Standup", href: "https://x.com/NNNSports/status/1964111420045287425", date: "9/5/25" },
+    { title: "Baseball at Wrigley Field: Northwestern vs Ohio State Pregame Standup", href: "https://x.com/NNNSports/status/1920983647101837351", date: "5/9/25" },
+    { title: "Women's Basketball: Northwestern vs Penn State Halftime Standup", href: "https://x.com/NNNSports/status/1888683929387102461", date: "2/9/25" },
+    { title: "Men's Basketball: Northwestern vs Maryland Postgame Standup", href: "https://x.com/NNNSports/status/1880385871381402044", date: "1/16/25" },
+    { title: "Women's Basketball: Northwestern vs Harvard Halftime Standup", href: "https://x.com/NNNSports/status/1860402788083114320", date: "11/23/24" },
+    { title: "Men's Basketball: Northwestern vs Eastern Illinois Pregame Standup", href: "https://x.com/NNNSports/status/1857587132593844234", date: "11/15/24" }
   ]
 
   return (
-    <main className="television-page">
+    <main className="section-page">
       <WorkPageHero
         category="Television"
         title="Television"
-        description="I'm a reporter, editor and anchor for Northwestern News Network (NNN) News and Sports. I produce packages, edit highlights and anchor for the weekly SportsNight show; plus I've been featured on the Politicat and Noticiero Northwestern programs. All broadcasts are livestreamed on YouTube. As a sideline reporter, I produce standups in the field and film Northwestern basketball, football and baseball. This included a trip to Wrigley Field to cover NU baseball. Here are clips of my work in front of and behind the camera!"
+        description="Reporter, editor and anchor for Northwestern News Network. Producing packages, editing highlights and anchoring for SportsNight, Politicat and Noticiero Northwestern. All broadcasts livestreamed on YouTube."
         imageSrc="/television/wrigley_standup.webp"
         imageAlt="Television standup at Wrigley Field"
       />
 
       <WorkSection title="On-Air">
-        <div className="television-grid">
+        <div className="media-card-grid">
           {studioItems.map((item, index) => (
             <WorkCard
               key={index}
@@ -152,7 +105,6 @@ const Standups = [
               imageAlt={item.imageAlt}
               title={item.title}
               date={item.date}
-              onClick={handleCardClick}
             />
           ))}
         </div>
@@ -161,26 +113,10 @@ const Standups = [
       <WorkSection title="Standups">
         <MediaGrid
           items={[
-            {
-              title: 'Welsh-Ryan Arena 2',
-              subtitle: 'Basketball coverage',
-              src: '/television/welsh-ryan_arena_2.webp',
-              alt: 'Welsh-Ryan Arena standup',
-              subdued: true,
-            },
-            {
-              title: 'Football sidelines',
-              subtitle: 'Pregame & postgame hits',
-              src: '/television/football_sidelines.webp',
-              alt: 'Football sidelines standup',
-              subdued: true,
-            
-            },
+            { src: '/television/welsh-ryan_arena_2.webp', alt: 'Welsh-Ryan Arena standup', subdued: true },
+            { src: '/television/football_sidelines.webp', alt: 'Football sidelines standup', subdued: true },
           ]}
         />
-      </WorkSection>
-
-      <WorkSection title="">
         <WorkList items={Standups} />
       </WorkSection>
     </main>

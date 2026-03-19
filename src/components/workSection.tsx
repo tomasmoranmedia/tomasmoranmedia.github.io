@@ -8,13 +8,9 @@ interface WorkSectionProps {
 
 function WorkSection({ title, description, children }: WorkSectionProps) {
   return (
-    <section className="television-section">
-      {(title || description) && (
-        <div className="television-section-head">
-          {title && <h2>{title}</h2>}
-          {description && <p className="television-note">{description}</p>}
-        </div>
-      )}
+    <section>
+      {title && <h2 className="section-subtitle">{title}</h2>}
+      {description && <p className="section-note">{description}</p>}
       {children}
     </section>
   )

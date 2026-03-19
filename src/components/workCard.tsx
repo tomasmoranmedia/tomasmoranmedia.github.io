@@ -9,29 +9,29 @@ interface WorkCardProps {
 }
 
 function WorkCard({ href, imageSrc, imageAlt, title, date, subdued, onClick }: WorkCardProps) {
-  const CardContent = (
+  const content = (
     <>
-      <img src={imageSrc} alt={imageAlt} className="television-card-image" />
-      <div className="television-card-body">
-        <h3>{title}</h3>
-        {date && <p className="television-date">{date}</p>}
+      <img src={imageSrc} alt={imageAlt} className="media-card-image" />
+      <div className="media-card-body">
+        <h3 className="story-headline">{title}</h3>
+        {date && <p className="story-meta">{date}</p>}
       </div>
     </>
   )
 
-  const cardClass = `television-card${subdued ? ' subdued' : ''}`
+  const className = `media-card${subdued ? ' subdued' : ''}`
 
   if (href) {
     return (
-      <a className={cardClass} href={href} target="_blank" rel="noopener noreferrer" onClick={onClick}>
-        {CardContent}
+      <a className={className} href={href} target="_blank" rel="noopener noreferrer" onClick={onClick}>
+        {content}
       </a>
     )
   }
 
   return (
-    <div className={cardClass} onClick={onClick}>
-      {CardContent}
+    <div className={className} onClick={onClick}>
+      {content}
     </div>
   )
 }

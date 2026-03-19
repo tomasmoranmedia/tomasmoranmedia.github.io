@@ -10,16 +10,14 @@ interface WorkPageHeroProps {
 
 function WorkPageHero({ category, title, description, imageSrc, imageAlt }: WorkPageHeroProps) {
   return (
-    <div className="television-hero">
-      <div className="television-hero-media">
-        <img src={imageSrc} alt={imageAlt} />
-      </div>
-      <div className="television-hero-copy">
-        <p className="television-kicker"><Link className="television-kicker" to="/work">My Work</Link> · {category}</p>
+    <>
+      <div className="section-page-header">
+        <p className="section-breadcrumb"><Link to="/">Home</Link> &middot; {category}</p>
         <h1>{title}</h1>
-        <p className="television-lead">{description}</p>
+        <p className="section-description">{description}</p>
       </div>
-    </div>
+      <img src={imageSrc} alt={imageAlt} className="section-hero-image" />
+    </>
   )
 }
 
