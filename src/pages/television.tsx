@@ -11,11 +11,18 @@ function TelevisionPage() {
 
   const studioItems = [
     {
+      href: "https://youtu.be/nBXjpn6dn7M?si=JIoIHfTP8WaHkeEC",
+      imageSrc: "/television/noticiero 2.heic",
+      imageAlt: "Lima Costa Verde",
+      title: "\"Noticiero Northwestern\" Anchoring (Spanish)",
+      date: "3/12/26"
+    },
+    {
       href: "https://youtu.be/XjcVv2HnGms?si=wKuWv9zX9wQYA3Sj",
-      imageSrc: "/television/sportsnight 2.heic",
+      imageSrc: "/television/sportsnight 2.jpg",
       imageAlt: "Lima Costa Verde",
       title: "\"SportsNight\" Anchoring (English)",
-      date: "3/12/26"
+      date: "4/7/26"
     },
     {
       href: "https://drive.google.com/file/d/1JOeiImnmEFLfLfNq14pGVbyOYHfRJZnx/view?usp=sharing",
