@@ -12,21 +12,21 @@ function TelevisionPage() {
   const studioItems = [
     {
       href: "https://youtu.be/1h0i6PpE4gM?si=xlZVMJqEs4Zn7DEn",
-      imageSrc: "/television/noticiero 3.PNG",
+      imageSrc: "/television/noticiero_3.png",
       imageAlt: "Lima Costa Verde",
       title: "\"Noticiero Northwestern\" Anchoring (Spanish)",
       date: "4/14/26"
     },
     {
       href: "https://youtu.be/nBXjpn6dn7M?si=JIoIHfTP8WaHkeEC",
-      imageSrc: "/television/noticiero 2.JPG",
+      imageSrc: "/television/noticiero_2.png",
       imageAlt: "Lima Costa Verde",
       title: "\"Noticiero Northwestern\" Anchoring (Spanish)",
       date: "4/7/26"
     },
     {
       href: "https://youtu.be/XjcVv2HnGms?si=wKuWv9zX9wQYA3Sj",
-      imageSrc: "/television/sportsnight 2.jpg",
+      imageSrc: "/television/sportsnight_2.jpg",
       imageAlt: "Lima Costa Verde",
       title: "\"SportsNight\" Anchoring (English)",
       date: "3/12/26"
