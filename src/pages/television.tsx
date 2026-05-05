@@ -12,7 +12,7 @@ function TelevisionPage() {
   const studioItems = [
     {
       href: "https://youtu.be/1h0i6PpE4gM?si=xlZVMJqEs4Zn7DEn",
-      imageSrc: "/television/television_noticiero 3.png",
+      imageSrc: "/television/Television_Noticiero 3.PNG",
       imageAlt: "Lima Costa Verde",
       title: "\"Noticiero Northwestern\" Anchoring (Spanish)",
       date: "4/14/26"
