@@ -26,7 +26,7 @@ function TelevisionPage() {
     },
     {
       href: "https://youtu.be/XjcVv2HnGms?si=wKuWv9zX9wQYA3Sj",
-      imageSrc: "/television/Television_ Sportsnight 2.PNG",
+      imageSrc: "/television/sportsnight 2.heic",
       imageAlt: "Lima Costa Verde",
       title: "\"SportsNight\" Anchoring (English)",
       date: "3/12/26"
