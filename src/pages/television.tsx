@@ -19,14 +19,14 @@ function TelevisionPage() {
     },
     {
       href: "https://youtu.be/nBXjpn6dn7M?si=JIoIHfTP8WaHkeEC",
-      imageSrc: "/television/Television_ Noticiero 2.PNG",
+      imageSrc: "/television/Television_ Noticiero 2.JPG",
       imageAlt: "Lima Costa Verde",
       title: "\"Noticiero Northwestern\" Anchoring (Spanish)",
       date: "4/7/26"
     },
     {
       href: "https://youtu.be/XjcVv2HnGms?si=wKuWv9zX9wQYA3Sj",
-      imageSrc: "/television/Television_ Sportsnight 2.JPG",
+      imageSrc: "/television/Television_ Sportsnight 2.PNG",
       imageAlt: "Lima Costa Verde",
       title: "\"SportsNight\" Anchoring (English)",
       date: "3/12/26"
