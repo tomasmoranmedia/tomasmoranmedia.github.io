@@ -16,6 +16,13 @@ function SocialMediaPage() {
       title: "My Instagram Account @tomasmoranmedia"
     },
     {
+      href: "https://www.instagram.com/reel/DWAVgujisLC/?igsh=Zm1yaXdybzcwbG9p",
+      imageSrc: "/social/lima_cerro.heic",
+      imageAlt: "Chicago Fire FC Sector Latino interviews",
+      title: "NNN News Northwestern Students Vote in Primaries Social Media Package (English)",
+      date: "2/27/26"
+    },
+    {
       href: "https://www.instagram.com/reel/DVR2kC5kSmJ/?igsh=MTRwa3BxNHB0aGI5eQ==",
       imageSrc: "/social/lima_cerro.heic",
       imageAlt: "Chicago Fire FC Sector Latino interviews",
@@ -39,6 +46,21 @@ function SocialMediaPage() {
   ]
 
   const highlights = [
+    {
+      title: "NNN Sports Northwestern Lacrosse Number-One Seed Reel (Spanish)",
+      href: "https://www.instagram.com/reel/DX92ByHJ8iz/?igsh=MW1wMHhzNTE0b3RxaA==",
+      date: "5/5/26"
+    },
+    {
+      title: "Micaela Rivera Profile (Spanish)",
+      href: "https://www.instagram.com/reel/DXxr6zmMLoJ/?igsh=ejJxbXkzbGN6NWdy",
+      date: "4/30/26"
+    },
+    {
+      title: "Bronzeville Exploration Reel (English)",
+      href: "https://www.instagram.com/reel/DVZzTgBjD_E/?igsh=OG4ycDVucmRjMnZp",
+      date: "3/2/26"
+    },
     {
       title: "NNN News Chicago Stars in Evanston Social Media Package (Spanish)",
       href: "https://www.instagram.com/reel/DVPIj-mDnl1/?igsh=MTZjYTNybDkzcDhteQ%3D%3D",
