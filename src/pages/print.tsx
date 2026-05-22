@@ -6,6 +6,11 @@ import WorkList from '../components/workList'
 function PrintPage() {
   const articles = [
     {
+      title: "Stars devoured by Pride",
+      href: "https://prostinternational.com/2026/03/26/stars-devoured-by-pride/",
+      date: "3/26/26"
+    },
+    {
       title: "Encendidos: Sector Latino's Passion On And Off The Pitch - Illinois Latino News Network",
       href: "https://illatinonews.com/encendidos-sector-latinos-passion-on-and-off-the-pitch/",
       date: "11/21/25"
