@@ -11,6 +11,13 @@ function TelevisionPage() {
 
   const studioItems = [
     {
+      href: "https://youtu.be/7f2mfEtTI9g?si=D0r70yVz3S5XCCY1",
+      imageSrc: "/television/nnx.png",
+      imageAlt: "Lima Costa Verde",
+      title: "\"NNX\" Anchoring (English)",
+      date: "4/28/26"
+    },
+    {
       href: "https://youtu.be/1h0i6PpE4gM?si=xlZVMJqEs4Zn7DEn",
       imageSrc: "/television/Television_ Noticiero 3.PNG",
       imageAlt: "Lima Costa Verde",
