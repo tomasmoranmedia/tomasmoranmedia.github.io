@@ -65,7 +65,7 @@ function RadioPage() {
       <WorkPageHero
         category="Radio"
         title="Radio"
-        description={"As WNUR Sports Managing Editor, I'm the chief station editor and have the opportunity of live broadcasting Northwestern soccer, basketball, volleyball, lacrosse, football, softball and baseball. As a student intern at 98.3FM The Life, I connect with the Lake County community through high school basketball and football broadcasts and hosting the \"Swamp Ratt\" college sports segment on the \"Sports Corner\" Saturday morning show. Highlights beyond Evanston include trips to the United Center, Wintrust Arena, Simon Skjodt Assembly Hall and Hagan Arena in Philadelphia covering NU basketball with WNUR Sports; as well as broadcasting the 2025 IHSA Final Four from State Farm Center with 98.3FM The Life!"}
+        description={"At WNUR Sports, I have the opportunity of live broadcasting Northwestern soccer, basketball, volleyball, lacrosse, football, softball and baseball. As a student intern at 98.3FM The Life, I connect with the Lake County community through high school basketball and football broadcasts and hosting the \"Swamp Ratt\" college sports segment on the \"Sports Corner\" Saturday morning show. Highlights beyond Evanston include trips to the United Center, Wintrust Arena, Simon Skjodt Assembly Hall and Hagan Arena in Philadelphia covering NU basketball with WNUR Sports; as well as broadcasting the 2025 IHSA Final Four from State Farm Center with 98.3FM The Life!"}
         imageSrc="/radio/soccer_broadcast.webp"
         imageAlt="Calling a Northwestern soccer match"
       />
