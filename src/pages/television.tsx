@@ -18,6 +18,13 @@ function TelevisionPage() {
       date: "5/21/26"
     },
     {
+      href: "https://www.instagram.com/reel/DX2wpOBDO_r/?igsh=cnJtbWcxMHFwZGFj",
+      imageSrc: "/television/earth day.png",
+      imageAlt: "Lima Costa Verde",
+      title: "\"Northwestern News Report\" Evanston Celebrates Earth Day Package (English)",
+      date: "4/28/26"
+    },
+    {
       href: "https://youtu.be/7f2mfEtTI9g?si=D0r70yVz3S5XCCY1",
       imageSrc: "/television/nnx.png",
       imageAlt: "Lima Costa Verde",
@@ -46,7 +53,7 @@ function TelevisionPage() {
       date: "3/12/26"
     },
     {
-      href: "https://drive.google.com/file/d/1JOeiImnmEFLfLfNq14pGVbyOYHfRJZnx/view?usp=sharing",
+      href: "https://www.instagram.com/reel/DVcC433iaJK/?igsh=MTgzeDY2cG1mOHN3Yw==",
       imageSrc: "/television/costa_verde_road.heic",
       imageAlt: "Lima Costa Verde",
       title: "\"SportsNight\" Keenan Fitzmorris in Peru Package (English)",
@@ -67,7 +74,7 @@ function TelevisionPage() {
       date: "2/3/26"
     },
     {
-      href: "https://drive.google.com/file/d/1jejO3DuJPaXHHr3LPD8zmbIsyFxK-rtS/view?usp=sharing",
+      href: "https://www.instagram.com/reel/DT4BIp2jv-v/?igsh=MTQxcW9qZ2k1bXd3Yg==",
       imageSrc: "/television/politicat_on-desk.webp",
       imageAlt: "Politicat on-desk",
       title: "\"Politicat\" One Year of Trump Explainer (English)",
