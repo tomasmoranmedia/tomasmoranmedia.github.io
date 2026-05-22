@@ -18,8 +18,15 @@ function TelevisionPage() {
       date: "5/21/26"
     },
     {
+      href: "https://www.instagram.com/reel/DYVfw02u3kl/?igsh=emQ5aTZlZml3MmYz",
+      imageSrc: "/television/chicaskis 2.png",
+      imageAlt: "Lima Costa Verde",
+      title: "\"Noticiero Northwestern\" Chicago Peruvian Run Club Package (Spanish)",
+      date: "5/12/26"
+    },
+    {
       href: "https://www.instagram.com/reel/DX2wpOBDO_r/?igsh=cnJtbWcxMHFwZGFj",
-      imageSrc: "/television/earth day.png",
+      imageSrc: "/television/earth day 2.png",
       imageAlt: "Lima Costa Verde",
       title: "\"Northwestern News Report\" Evanston Celebrates Earth Day Package (English)",
       date: "4/28/26"
@@ -95,7 +102,7 @@ function TelevisionPage() {
       date: "7/10/25"
     },
     {
-      href: "https://drive.google.com/file/d/1zIcIn8YkwuJTALPq-SsbrvhAHLeCCUXc/view?usp=sharing",
+      href: "https://www.instagram.com/reel/DGrGNa-qh3O/?igsh=ZjN0a25tYWZtbjQ=",
       imageSrc: "/television/wrestling.png",
       imageAlt: "Wildcat Gameday Preview desk",
       title: "\"SportsNight\" Wrestling Senior Night Package (English)",
