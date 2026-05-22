@@ -37,7 +37,7 @@ function DocumentaryPage() {
       <WorkPageHero
         category="Documentary"
         title="Documentary"
-        description="How does basketball survive in the only country without a national team due to governmental instability? I'm currently producing a bilingual basketball documentary about the state of Peruvian basketball and former Northwestern player Keenan Fitzmorris' experience playing in Lima. Having wrapped filming in Peru last December, it's set to be published by WNUR Sports this spring!"
+        description="How does basketball survive in the only country without a national team due to governmental instability? I'm currently producing a bilingual basketball documentary about the state of Peruvian basketball and former Northwestern player Keenan Fitzmorris' experience playing in Lima. Having wrapped filming in Peru last December, it's currently in production and will be released by WNUR Sports!"
         imageSrc="/documentary/camera.webp"
         imageAlt="Holding a camera while filming in Lima"
       />
