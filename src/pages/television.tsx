@@ -207,7 +207,7 @@ const Sideline = [
         </div>
       </WorkSection>
 
-      <WorkSection title="Standups">
+      <WorkSection title="Sideline">
         <MediaGrid
           items={[
             {
@@ -230,7 +230,7 @@ const Sideline = [
       </WorkSection>
 
       <WorkSection title="">
-        <WorkList items={Standups} />
+        <WorkList items={Sideline} />
       </WorkSection>
     </main>
   )
