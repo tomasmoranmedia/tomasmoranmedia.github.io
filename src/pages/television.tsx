@@ -25,7 +25,7 @@ function TelevisionPage() {
       date: "5/19/26"
     },
     {
-      href: "https://www.instagram.com/reel/DYVfw02u3kl/?igsh=emQ5aTZlZml3MmYz",
+      href: "https://https://www.instagram.com/reel/DYVfw02u3kl/?igsh=emQ5aTZlZml3MmYz",
       imageSrc: "/television/chicaskis 2.png",
       imageAlt: "Lima Costa Verde",
       title: "\"Noticiero Northwestern\" Chicago Peruvian Run Club Package (Spanish)",
