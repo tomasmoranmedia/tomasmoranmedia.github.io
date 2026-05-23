@@ -18,6 +18,13 @@ function TelevisionPage() {
       date: "5/21/26"
     },
     {
+      href: "https://www.instagram.com/reel/DYpuFjzJr20/?igsh=MXVjMHZjeGdwam5pYw==",
+      imageSrc: "/television/ballet folklorico.png",
+      imageAlt: "Lima Costa Verde",
+      title: "\"Noticiero Northwestern\" Ballet Folklórico Package (Spanish)",
+      date: "5/19/26"
+    },
+    {
       href: "https://www.instagram.com/reel/DYVfw02u3kl/?igsh=emQ5aTZlZml3MmYz",
       imageSrc: "/television/chicaskis 2.png",
       imageAlt: "Lima Costa Verde",
@@ -32,7 +39,7 @@ function TelevisionPage() {
       date: "4/28/26"
     },
     {
-      href: "https://youtu.be/7f2mfEtTI9g?si=D0r70yVz3S5XCCY1",
+      href: "https://youtu.be/ZIIMmrP75Xs?si=9QUxi7WtwKGWCbfQ",
       imageSrc: "/television/nnx.png",
       imageAlt: "Lima Costa Verde",
       title: "\"NNX\" Anchoring (English)",
