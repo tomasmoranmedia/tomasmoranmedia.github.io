@@ -123,7 +123,7 @@ function TelevisionPage() {
       date: "10/11/24"
     }
   ]
-const Standups = [
+const Sideline = [
     {
       title: "Men's Basketball: Northwestern vs Penn State Postgame Standup",
       href: "https://x.com/NNNSports/status/2017092728224452837?s=20",
