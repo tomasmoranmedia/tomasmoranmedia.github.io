@@ -20,7 +20,7 @@ function SocialMediaPage() {
       imageSrc: "/social/lima_cerro.heic",
       imageAlt: "Chicago Fire FC Sector Latino interviews",
       title: "NNN News Northwestern Students Vote in Primaries Social Media Package (English)",
-      date: "3/17/26"
+      date: "2/27/26"
     },
     {
       href: "https://www.instagram.com/reel/DVR2kC5kSmJ/?igsh=MTRwa3BxNHB0aGI5eQ==",
