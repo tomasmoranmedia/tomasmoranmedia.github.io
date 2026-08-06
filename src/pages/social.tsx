@@ -47,7 +47,7 @@ function SocialMediaPage() {
 
   const highlights = [
     {
-      title: "NNN Sports Northwestern Lacrosse Number-One Seed Reel (Spanish)",
+      title: "NNN Sports Northwestern Lacrosse Number-One Seed Reel (English)",
       href: "https://www.instagram.com/reel/DX92ByHJ8iz/?igsh=MW1wMHhzNTE0b3RxaA==",
       date: "5/5/26"
     },
