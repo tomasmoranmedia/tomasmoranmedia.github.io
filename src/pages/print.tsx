@@ -6,7 +6,7 @@ import WorkList from '../components/workList'
 function PrintPage() {
   const articles = [
     {
-      title: "Stars devoured by Pride",
+      title: "Stars devoured by Pride - Prost International",
       href: "https://prostinternational.com/2026/03/26/stars-devoured-by-pride/",
       date: "3/26/26"
     },
