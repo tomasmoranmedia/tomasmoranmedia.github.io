@@ -33,7 +33,7 @@ function TelevisionPage() {
     },
     {
       href: "https://www.instagram.com/reel/DX2wpOBDO_r/?igsh=cnJtbWcxMHFwZGFj",
-      imageSrc: "/television/earth day 2.png",
+      imageSrc: "/television/Earth Day 3.png",
       imageAlt: "Lima Costa Verde",
       title: "\"Northwestern News Report\" Evanston Celebrates Earth Day Package (English)",
       date: "4/28/26"
