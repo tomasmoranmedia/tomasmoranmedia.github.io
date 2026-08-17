@@ -11,7 +11,7 @@ function TelevisionPage() {
 
   const studioItems = [
     {
-      href: "https://youtu.be/p061VAFzIbI?si=PwNYItcGKcI255-b",
+      href: "https://www.instagram.com/reel/DZdaaGTPFPg/?igsh=MWtiYzJkajAwOHFtMQ==&igsi=MWtiYzJkajAwOHFtMQ==",
       imageSrc: "/television/edgewater.heic",
       imageAlt: "Lima Costa Verde",
       title: "\"Noticiero Northwestern\" Edgewater Castle FC Explainer (Spanish)",
