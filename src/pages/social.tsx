@@ -17,7 +17,7 @@ function SocialMediaPage() {
     },
     {
       href: "https://www.instagram.com/reel/DWAVgujisLC/?igsh=Zm1yaXdybzcwbG9p",
-      imageSrc: "/social/lima_cerro.heic",
+      imageSrc: "/television/illinois primaries.png",
       imageAlt: "Chicago Fire FC Sector Latino interviews",
       title: "NNN News NU Students Vote in Primaries Social Media Package (English)",
       date: "3/17/26"
