@@ -16,6 +16,13 @@ function SocialMediaPage() {
       title: "My Instagram Account @tomasmoranmedia"
     },
     {
+      href: "https://www.instagram.com/reel/DZRQumiM3kz/?igsh=MW1hMHMwZjBqZGIxNg==&igsi=MW1hMHMwZjBqZGIxNg==",
+      imageSrc: "/social/illinois primaries.png",
+      imageAlt: "Chicago Fire FC Sector Latino interviews",
+      title: "Edgewater Castle FC Social Media Package (English)",
+      date: "6/6/26"
+    },
+    {
       href: "https://www.instagram.com/reel/DWAVgujisLC/?igsh=Zm1yaXdybzcwbG9p",
       imageSrc: "/social/illinois primaries.png",
       imageAlt: "Chicago Fire FC Sector Latino interviews",
