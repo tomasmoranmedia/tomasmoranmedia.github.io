@@ -19,7 +19,7 @@ function TelevisionPage() {
     },
     {
       href: "https://www.instagram.com/reel/DYpuFjzJr20/?igsh=MXVjMHZjeGdwam5pYw==",
-      imageSrc: "/television/ballet folklorico.png",
+      imageSrc: "/television/ballet folklorico 2.png",
       imageAlt: "Lima Costa Verde",
       title: "\"Noticiero Northwestern\" Ballet Folklórico Package (Spanish)",
       date: "5/19/26"
