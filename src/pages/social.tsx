@@ -17,7 +17,7 @@ function SocialMediaPage() {
     },
     {
       href: "https://www.instagram.com/reel/DZRQumiM3kz/?igsh=MW1hMHMwZjBqZGIxNg==&igsi=MW1hMHMwZjBqZGIxNg==",
-      imageSrc: "/social/illinois primaries.png",
+      imageSrc: "/social/rooks.png",
       imageAlt: "Chicago Fire FC Sector Latino interviews",
       title: "Edgewater Castle FC Social Media Package (English)",
       date: "6/6/26"
