@@ -26,14 +26,14 @@ function TelevisionPage() {
     },
     {
       href: "https://https://www.instagram.com/reel/DYVfw02u3kl/?igsh=emQ5aTZlZml3MmYz",
-      imageSrc: "/television/chicaskis 4.png",
+      imageSrc: "/television/chicaskis 5.png",
       imageAlt: "Lima Costa Verde",
       title: "\"Noticiero Northwestern\" Chicago Peruvian Run Club Package (Spanish)",
       date: "5/12/26"
     },
     {
       href: "https://www.instagram.com/reel/DX2wpOBDO_r/?igsh=cnJtbWcxMHFwZGFj",
-      imageSrc: "/television/earth day 5.png",
+      imageSrc: "/television/earth day 6.png",
       imageAlt: "Lima Costa Verde",
       title: "\"Northwestern News Report\" Evanston Celebrates Earth Day Package (English)",
       date: "4/28/26"
