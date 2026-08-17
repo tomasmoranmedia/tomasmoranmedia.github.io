@@ -12,6 +12,13 @@ function TelevisionPage() {
   const studioItems = [
     {
       href: "https://youtu.be/p061VAFzIbI?si=PwNYItcGKcI255-b",
+      imageSrc: "/television/edgewater.heic",
+      imageAlt: "Lima Costa Verde",
+      title: "\"Noticiero Northwestern\" Edgewater Castle FC Explainer (Spanish)",
+      date: "6/2/26"
+    },
+    {
+      href: "https://youtu.be/p061VAFzIbI?si=PwNYItcGKcI255-b",
       imageSrc: "/television/sportsnight 3.png",
       imageAlt: "Lima Costa Verde",
       title: "\"SportsNight\" Anchoring (English)",
